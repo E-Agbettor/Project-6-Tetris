@@ -1,0 +1,54 @@
+body{
+  background-color: #88e7f8;
+}
+
+form{
+  margin-top: 1rem;
+}
+
+label{
+  font-weight: bold;
+}
+select{
+  width: 6.3%;
+}
+
+.container {
+  display: flex;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background:url('grid.png') no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  border: .1rem solid gary;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+  /* border: 1px solid gray; */
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
